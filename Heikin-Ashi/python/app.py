@@ -35,20 +35,20 @@ def sms():
             else:
                 HA_Open_latest = (HA_Open_latest+HA_Close_latest)/2
             HA_Close_latest = (latest["Open"] + latest["Close"] +  latest["Low"] + latest["High"]) /4
-            account_sid = 'ACe4f8a304ab7204bd3adb16decbf35e28'
-            auth_token = '7eaaeaac35ee2382a51906c6684a03a0'
+            account_sid = '****'
+            auth_token = '****'
             client = Client(account_sid, auth_token)
             if (HA_Open_latest < HA_Close_latest):
                 message = client.messages.create(
                                         body="Buy",
-                                        from_="+13612382106",
-                                        to="+971567515767"
+                                        from_="****",
+                                        to="****"
                                     )
             else:
                 message = client.messages.create(
                                         body="Sell",
-                                        from_="+13612382106",
-                                        to="+971567515767"
+                                        from_="****",
+                                        to="****"
                                     )
 
 def run_schedule():
