@@ -47,11 +47,16 @@ This is a Twilio SMS app with background cron jobs for every day 2 hours, inorde
 
 1. Create a Account in [Twilio](https://www.twilio.com/console)
 2. Create a Account in [IBM Cloud](http://ibm.biz/ioblockchain)
-3. Get ```account_sid``` and ```auth_token```
-4. Regitser you sms number in twilio 
-5. Give a unique name in ```manifest.yml```
-6. Navigate to ``` Heikin-Ashi/python```
-6. Push the app to IBM Cloud
+3. Create a Account in [xignite](https://globalmetals.xignite.com)
+4. Get ```account_sid``` and ```auth_token```
+5. Regitser you sms number in twilio 
+6. Give a unique name in ```manifest.yml```
+7. Navigate to ``` Heikin-Ashi/python```
+8. Push the app to IBM Cloud
 ```
 $ cf push
 ```
+
+## Work in progress :)
+
+PR Welcome ^^
