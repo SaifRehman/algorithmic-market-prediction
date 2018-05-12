@@ -2,3 +2,5 @@
 applications:
  - name: heikinashi
    memory: 128M
+   command: python hello.py
+   buildpack: python_buildpack
