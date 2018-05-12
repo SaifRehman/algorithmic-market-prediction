@@ -9,7 +9,7 @@
   <br>
 </h1>
 
-<h4 align="center">Implementation of Algorthmic Prediction Candle Patterns</h4>
+<h4 align="center">Implementation of Algorthmic Prediction of Candle Patterns</h4>
 
 <p align="center">
   <a>
