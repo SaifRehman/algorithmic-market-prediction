@@ -43,5 +43,14 @@
 
 This is a Twilio SMS app with background cron jobs for every day 2 hours, inorder to alert for buy or sell 
 
+![2](images/2.png)
 
-
+1. Create a Account in [Twilio](https://www.twilio.com/console)
+2. Create a Account in [IBM Cloud](http://ibm.biz/ioblockchain)
+3. Get ```account_sid``` and ```auth_token```
+4. Regitser you sms number in twilio 
+5. Give a unique name in ```manifest.yml```
+6. Push the app to IBM Cloud
+```
+$ cf push
+```
