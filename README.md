@@ -52,6 +52,15 @@ This is a Twilio SMS app with background cron jobs for every day 2 hours, inorde
 5. Regitser you sms number in twilio 
 6. Give a unique name in ```manifest.yml```
 7. Navigate to ``` Heikin-Ashi/python```
+8. Place in number you want to send the sms to
+```Python
+message = client.messages.create(
+                                        body="Buy/Sell",
+                                        from_="****",
+                                        to="****"
+                                    )
+
+```
 8. Push the app to IBM Cloud
 ```
 $ cf push
