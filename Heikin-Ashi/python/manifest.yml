@@ -1,0 +1,4 @@
+---
+applications:
+ - name: heikinashi
+   memory: 128M
