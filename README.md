@@ -50,6 +50,7 @@ This is a Twilio SMS app with background cron jobs for every day 2 hours, inorde
 3. Get ```account_sid``` and ```auth_token```
 4. Regitser you sms number in twilio 
 5. Give a unique name in ```manifest.yml```
+6. Navigate to ``` Heikin-Ashi/python```
 6. Push the app to IBM Cloud
 ```
 $ cf push
