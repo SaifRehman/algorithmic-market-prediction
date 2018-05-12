@@ -35,7 +35,7 @@
 
 #### Difference between normal candles and Heikin Ashi candles
 
-![1](img/1.png)
+![1](images/1.png)
 
 > Heiken Ashi candlestick filters out some noise in an effort to better capture the trend. For those that use trailing stops and are trend traders, flipping back between the two candlestick charts is quintessential for traders. In the chart I showed how a trader could use trailing stops to profit from the biggest trends. He or she would set stops with long or short positions and use the previous Heiken Ashi candlestick (green or red - lower or higher) as a gauge to stay in a trade or to get out of a trade. Overal Heiken Ashi is a chart I will look at often to know if I'm on the right side of the trade. 
 
