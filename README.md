@@ -22,6 +22,7 @@
 ## Implemantions 
 - [x] Twilio Support
 - [x] Heikin Ashi
+- [ ] Backtesting
 - [ ] Bullish Harami
 - [ ] Bearish Harami
 - [ ] Hammer Reversal
