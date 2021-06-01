@@ -70,7 +70,7 @@ singledispatch==3.4.0.3
 six==1.4.1
 tornado==5.0.2
 twilio==6.14.0
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.15.3
 xattr==0.6.4
 zope.interface==4.1.1
